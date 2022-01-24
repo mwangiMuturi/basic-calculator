@@ -1,0 +1,36 @@
+.display{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    background: cadetblue;
+    margin-top: 4px;
+
+
+}
+.digits{
+    display:grid;
+    grid-template-rows: 50px 50px 50px 50px;
+    grid-template-columns: 50px 50px 50px 50px ;
+    font-size: 1em;
+    background-color: burlywood;
+    width: 60%;
+    align-items: center;
+}
+
+
+
+ .modify{
+     display: flex;
+    
+     justify-content: space-between;
+     
+ }
+ .display input:focus{
+     background-color: gray;
+ }
+body{
+    color: beige;
+}
+.digits{
+    color: beige;
+}
